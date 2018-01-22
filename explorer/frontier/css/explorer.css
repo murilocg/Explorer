@@ -1,0 +1,69 @@
+.explorer {
+    height: 100%;
+    width: 100%;
+}
+
+.explorer .header-explorer {
+    background-color: #232c3a;
+    padding: 5px;
+}
+
+.explorer .header-explorer .element-bread-crumb:first-child {
+    border: none;
+    color: white;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.explorer .header-explorer .element-bread-crumb {
+    border-radius: 5px;
+    background-color: #576172;
+    color: white;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+
+.explorer .header-explorer .element-bread-crumb:last-child {
+    color: white;
+    background-color: #929baa;
+    cursor: pointer;
+    border: none;
+    padding: 5px;
+}
+
+.explorer .body-explorer table {
+    height: 100%;
+    width: 100%;
+    background-color: #d0d8e5;
+}
+
+.explorer .body-explorer table tr {
+    background-color: #f1f1f1;
+}
+
+.explorer .body-explorer table tr:hover {
+    background-color: #d0d8e5;
+    color: white;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.explorer .body-explorer table tr td:last-child {
+    width: 50px;
+    text-align: center;
+}
+
+.explorer .body-explorer table tr td span {
+    float: left;
+    padding: 6px;
+    margin-left: 20px;
+    outline-style: none;
+}
+
+.explorer .body-explorer table tr td img {
+    float: left;
+    outline-style: none;
+}
